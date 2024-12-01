@@ -39,7 +39,7 @@ public class Printer {
 
     private String getSimulationResult(int numberWins, int numberSteps){
         return String.format(
-                "Number steps: %s, Wins: %s, Losses: %s, Success rate: %s\n",
+                "Number steps: %s \nWins: %s \nLosses: %s \nSuccess rate: %s\n",
                 numberSteps,
                 numberWins,
                 numberSteps - numberWins,

@@ -21,10 +21,12 @@ public class Main {
         Printer printer = new Printer();
         Logger logger = new Logger();
 
+        final int NUMBER_DOORS = 3;
+
         for (int i = 0; i < Settings.NUMBER_STEPS; i ++){
             room.setFirstDoorNumber(1);
-            room.setLastDoorNumber(Settings.NUMBER_DOORS);
-            room.setWinningDoorNumber(random.nextInt(Settings.NUMBER_DOORS) + 1);
+            room.setLastDoorNumber(NUMBER_DOORS);
+            room.setWinningDoorNumber(random.nextInt(NUMBER_DOORS) + 1);
 
             logger.addStep(simulation.run(room, player));
         }
