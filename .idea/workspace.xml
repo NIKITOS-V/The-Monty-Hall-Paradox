@@ -4,15 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55996f0c-7407-4b25-855e-9473fe40e65a" name="Changes" comment="first commit">
+    <list default="true" id="55996f0c-7407-4b25-855e-9473fe40e65a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Settings/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Simulation/Player/Chooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Simulation/Player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Simulation/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Simulation/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Simulation/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Writer/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Writer/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/montyparadox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/montyparadox/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,11 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733044645579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Настроен xml файл">
+      <option name="closed" value="true" />
+      <created>1733049481345</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733049481345</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Настроен xml файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настроен xml файл" />
   </component>
 </project>
